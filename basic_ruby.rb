@@ -6,12 +6,11 @@ end
 puts add_phrase("Donald Trump and Ted Cruz are viable Presidential candidates...")
 
 #1B
-numbers = [12, 37, 25]
-	numbers.each do |biggest|
-		if biggest == 37 
-			puts biggest
-	end 
+def numbers ; [12, 37, 25, 64, 54]
 end
+  
+  puts numbers.sort.last
+
 
 #1C
 def alcohol(type, brand)
