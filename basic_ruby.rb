@@ -6,10 +6,17 @@ end
 puts add_phrase("Donald Trump and Ted Cruz are viable Presidential candidates...")
 
 #1B
-def numbers ; [12, 37, 25, 64, 54]
+def max(array)
+    max = array[0]
+    for i in 0..array.length - 1
+        if array[i] > max
+             max = array[i]
+        end
+    end
+    puts max
 end
-  
-  puts numbers.sort.last
+
+max ([12, 37, 25, 64, 54])
 
 
 #1C
